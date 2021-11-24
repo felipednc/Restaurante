@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#bg-top {
+    background-image: url('/Img/blur-restaurant.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100em;
+    
+    height: 30em;
+}

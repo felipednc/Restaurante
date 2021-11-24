@@ -59,3 +59,9 @@ div#social ul li:nth-child(5) a:hover{background-position: -128px -32px;}
     width: 400px;
     height: 200px;
 }
+
+b {
+    border: 1px solid black;
+    display: inline-block;
+    background-color: rgb(216, 216, 216);
+}

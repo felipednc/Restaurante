@@ -5,11 +5,57 @@ body {
     margin: 0;
     padding: 0;
 }
-#bg-top {
+#top {
     background-image: url('/Img/blur-restaurant.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100em;
     
     height: 30em;
+}
+#copyfo {
+    display: flex;
+    justify-content: center;
+}
+#menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#parte3 {
+    background-color: #ef53508e;
+}
+/* formatacao redes sociais */
+div#social ul li{
+	width: 32px; height: 32px;
+	float: left;
+	margin-right: 15px;
+}
+div#social ul li a{
+	background-image: url('/Img/sprite-social.png');
+	display: block;
+	height: 100%;
+	text-indent: -99999em;
+}
+div#social ul li:nth-child(1) a{background-position: 0 0;}
+div#social ul li:nth-child(2) a{background-position: -32px 0;}
+div#social ul li:nth-child(3) a{background-position: -64px 0;}
+div#social ul li:nth-child(4) a{background-position: -96px 0;}
+div#social ul li:nth-child(5) a{background-position: -128px 0;}
+
+div#social ul li:nth-child(1) a:hover{background-position: 0 -32px;}
+div#social ul li:nth-child(2) a:hover{background-position: -32px -32px;}
+div#social ul li:nth-child(3) a:hover{background-position: -64px -32px;}
+div#social ul li:nth-child(4) a:hover{background-position: -96px -32px;}
+div#social ul li:nth-child(5) a:hover{background-position: -128px -32px;}
+/* class */
+
+#drinks {
+    width: 500px;
+    height: 400px;
+}
+
+#modal1,#modal2,#modal3,#modal4 {
+    width: 400px;
+    height: 200px;
 }

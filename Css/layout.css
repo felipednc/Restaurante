@@ -32,6 +32,7 @@ body {
     
 }
 #titlelo {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,15 +44,16 @@ body {
     animation-iteration-count: infinite;
 }
 #login1, #cadastro1 {
-    background-image: url(https://img.freepik.com/vetores-gratis/galaxy-particulas-fundo_23-2148331568.jpg?size=626&ext=jpg);
+    color: blue;
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
     background-repeat: no-repeat;
     background-size: 800px;
 }
 #footermo, #footermo a {
-    color: white;
-    background-image: url(https://img.freepik.com/vetores-gratis/galaxy-particulas-fundo_23-2148331568.jpg?size=626&ext=jpg);
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg;)
 }
 #enviar {
+    color: white;
     margin-bottom: 20px;
     margin-left: 60px;
     background-color: transparent;

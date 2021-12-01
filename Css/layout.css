@@ -7,6 +7,14 @@
      100% {color:rgba(9, 128, 240, 0.788);}
      
  }
+ @keyframes login {
+     0% {background-color: transparent;}
+     20% {background-color: tomato;}
+     40% {background-color: violet;}
+     60% {background-color: blue;}
+     80% {background-color: yellow;}
+     100% {background-color: green;}
+ }
  
  *{
     font-family: Arial, Helvetica, sans-serif;
@@ -17,11 +25,39 @@ body {
     padding: 0;
 }
 #top {
-    background-image: url('/Img/blur-restaurant.jpg');
+    background-image: url(https://i.ibb.co/Pj9Q8nq/blur-restaurant.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100em;
     
+}
+#titlelo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#titlelo h3 {
+    animation-name:text;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+#login1, #cadastro1 {
+    background-image: url(https://img.freepik.com/vetores-gratis/galaxy-particulas-fundo_23-2148331568.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+#footermo, #footermo a {
+    color: white;
+    background-image: url(https://img.freepik.com/vetores-gratis/galaxy-particulas-fundo_23-2148331568.jpg?size=626&ext=jpg);
+}
+#enviar {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    background-color: transparent;
+    animation-name: login;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 section#top{
@@ -69,7 +105,7 @@ div#social ul li{
 	margin-right: 15px;
 }
 div#social ul li a{
-	background-image: url('/Img/sprite-social.png');
+	background-image: url(https://i.ibb.co/cYsDVHC/sprite-social.png);
 	display: block;
 	height: 100%;
 	text-indent: -99999em;

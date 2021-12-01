@@ -27,4 +27,8 @@ $(document).ready(function(){
 
     $('.slider').slider('methodName');
      $('.slider').slider('methodName', paramName);
+
+     $(document).ready(function() {
+      M.updateTextFields();
+    });
   

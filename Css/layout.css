@@ -25,7 +25,7 @@ body {
     padding: 0;
 }
 #top {
-    background-image: url(https://i.ibb.co/Pj9Q8nq/blur-restaurant.jpg);
+    background-image: url(https://i.pinimg.com/564x/50/47/bd/5047bd0a9635fe6d792a97f88de64358.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100em;
@@ -44,6 +44,8 @@ body {
     animation-iteration-count: infinite;
 }
 #login1, #cadastro1 {
+    width: 500px;
+    height: 500px;
     color: blue;
     background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
     background-repeat: no-repeat;
@@ -107,7 +109,7 @@ div#social ul li{
 	margin-right: 15px;
 }
 div#social ul li a{
-	background-image: url(https://i.ibb.co/cYsDVHC/sprite-social.png);
+	background-image: url('/Img/sprite-social.png');
 	display: block;
 	height: 100%;
 	text-indent: -99999em;
@@ -129,7 +131,9 @@ div#social ul li:nth-child(5) a:hover{background-position: -128px -32px;}
     width: 500px;
     height: 400px;
 }
-
+#txt h5 {
+    margin-top: 60px;
+}
 #modal1,#modal2,#modal3,#modal4 {
     width: 400px;
     height: 200px;
